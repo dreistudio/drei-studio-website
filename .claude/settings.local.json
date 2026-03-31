@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cp -R /Users/sarahmennicken/src/sarahmennicken.com /Users/sarahmennicken/src/drei-studio-website)",
+      "Bash(rm -rf /Users/sarahmennicken/src/drei-studio-website/.git)"
+    ]
+  }
+}
