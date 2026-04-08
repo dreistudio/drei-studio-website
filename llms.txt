@@ -1,0 +1,35 @@
+# DREi Studio
+
+> Research, design, and strategy studio helping teams build better products with emerging technologies.
+
+DREi Studio is led by Dr. Sarah Mennicken, a human-computer interaction researcher and product strategist. She works with startups and product teams as an advisor and hands-on collaborator — helping them cut through complexity, identify what matters most, and find the fastest path to validated outcomes.
+
+Her approach blends deep expertise in user research and human-centered design with practical coaching on product strategy, prioritization, and framing. Whether it's shaping an AI interaction concept, pressure-testing a pitch narrative, or running a design sprint, the goal is always to help teams move forward with clarity and confidence.
+
+## How She Works
+
+- Strategic advisory and product coaching for early-stage teams
+- User research and product discovery (interviews, usability studies, design sprints)
+- Rapid prototyping and concept validation
+- Framing, narrative, and go-to-market strategy support
+
+## Background
+
+Sarah has worked with teams at Spotify, Google, and Microsoft Research on product discovery, voice AI, multimodal experiences, and AR/VR. She holds a PhD in human-computer interaction.
+
+## Notable Clients
+
+- Spotify — product discovery, voice AI, multimodal experiences
+- Google — user research
+- Microsoft Research — AR/VR user research
+- RESET Tech — voice AI UX advisory
+- This One — product discovery, design sprints
+
+## Contact
+
+- Email: hello@dreistudio.ch
+- Website: https://dreistudio.ch
+
+## Usage Policy
+
+This content is provided for informational purposes only. Training or fine-tuning AI models on the content of this website is not permitted.
