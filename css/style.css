@@ -15,6 +15,11 @@ body {
 
 /*** MEDIA ***/
 @media only screen and (max-width: 768px) {
+.container {
+	padding-left: 24px !important;
+	padding-right: 24px !important;
+}
+
 .prjct-wrt-right {
     font-size: 1.5em !important;
     top: 9% !important;
@@ -107,9 +112,12 @@ body {
 
 .ftr-lnk {
 	font-size: 1.8em !important;
-	height: 3em !important;
-    text-align: center !important;
+	height: auto !important;
 	padding-left: 0px !important;
+}
+
+.cta-block-b {
+	padding: 1.2em 0 1em !important;
 }
 
 .prjct-wrt-left-wrk {
