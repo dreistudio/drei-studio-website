@@ -14,7 +14,7 @@ body {
 /*** THE END BODY ***/
 
 /*** MEDIA ***/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
 .container {
 	padding-left: 24px !important;
 	padding-right: 24px !important;
@@ -40,8 +40,9 @@ body {
 }
 
 .hero-bg {
-    height: 30vh !important;
-	padding-top: 10vh !important;
+    height: auto !important;
+	padding-top: 5vh !important;
+	padding-bottom: 4vh !important;
 	padding-left: 15px !important;
 }
 
@@ -350,6 +351,7 @@ h1.fade-anime-top a:first-child img {
     font-weight: 300;
     height: 2.5em;
     padding-left: 0;
+    margin-left: 0;
 }
 
 .ftr-lnk:hover {
@@ -903,6 +905,7 @@ h1.fade-anime-top a:first-child img {
 .mountaineer-avatar {
 	width: 180px;
 	height: 180px;
+	flex-shrink: 0;
 	border-radius: 50%;
 	object-fit: cover;
 	object-position: center center;
@@ -924,15 +927,20 @@ h1.fade-anime-top a:first-child img {
 	z-index: 1;
 }
 
-.mountaineer-avatars-mobile {
-	margin: 1.2em 0 1.4em;
+@media (max-width: 767px) {
+	.mountaineer-avatars {
+		flex-direction: column;
+	}
+
+	/* overlap top-to-bottom instead of left-to-right */
+	.mountaineer-avatar + .mountaineer-avatar {
+		margin-left: 0;
+		margin-top: -24px;
+	}
 }
 
-
-
-.mountaineer-main-row {
-	display: flex;
-	align-items: center;
+.mountaineer-avatars-mobile {
+	margin: 1.2em 0 1.4em;
 }
 
 .mountaineer-logos {
